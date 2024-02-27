@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Harsh Verma</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Harsh Verma, a dedicated Cyber Security Analyst currently working at XYZ Company. With a passion for safeguarding digital assets and ensuring the integrity of systems, I thrive in the dynamic and ever-evolving landscape of cybersecurity.
+
+        Professional Background
+        
+        My journey in the field of cybersecurity began with a deep fascination for technology and its vulnerabilities. After earning my degree in Computer Science, I delved into the realm of cybersecurity, where I found my calling in protecting organizations from cyber threats.
+        
+        At XYZ Company, I play a vital role in enhancing the security posture of our systems and networks. Through proactive monitoring, threat analysis, and incident response, I work tirelessly to mitigate risks and fortify our defenses against cyber attacks.
+        
+        Expertise
+        
+        My expertise encompasses a wide range of cybersecurity domains, including:
+        
+        Network Security: Implementing robust measures to secure network infrastructure and prevent unauthorized access.
+        Threat Intelligence: Keeping abreast of emerging threats and trends to anticipate and counter potential cyber attacks.
+        Security Auditing and Compliance: Conducting comprehensive audits to ensure adherence to industry standards and regulatory requirements.
+        Incident Response: Rapidly responding to security incidents to minimize impact and restore normal operations.
+        Philosophy
+        
+        I believe that cybersecurity is not just about building walls; it's about fostering a culture of security awareness and resilience. By empowering teams with the knowledge and tools to recognize and respond to threats, we can collectively defend against cyber adversaries and safeguard our digital assets.
+        
+        Interests
+        
+        Beyond my professional pursuits, I am passionate about staying abreast of the latest developments in cybersecurity through continuous learning and exploration. In my free time, you can find me experimenting with ethical hacking, contributing to open-source projects, or engaging with the cybersecurity community through forums and events.
+        
+        Connect With Me
+        
+        I'm always eager to connect with fellow cybersecurity enthusiasts, industry professionals, and potential collaborators. Whether you have a question, want to discuss a cybersecurity topic, or explore potential opportunities, feel free to reach out to me through [xxxxxxxxxx].
+        
+        Thank you for visiting my portfolio, and I look forward to connecting with you!
+        
+        </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project </h3>
+        <p>My first project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required minlength="3">
+          <span class="error-message" id="name-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message" id="email-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required minlength="10"></textarea>
+          <span class="error-message" id="message-error"></span>
+        </div>
+        <button type="submit">Send</button>
+      </form>          
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Harsh Verma. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
